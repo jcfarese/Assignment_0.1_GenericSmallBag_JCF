@@ -1,5 +1,5 @@
 /**
- * Thee executable application for the Item and SmallBag class
+ * The executable application for the Item and SmallBag class
  * 
  * @author Jim Farese
  * @version Aug/28/2022
@@ -19,6 +19,7 @@ public class Application {
 	Item<Integer> itemInteger=new Item<Integer>();
 	itemInteger.setE(18);
 	
+	//new instance of item
 	SmallBag<Item> smallBagS=new SmallBag<Item>();
 	smallBagS.setItem(itemString);
 	
@@ -33,4 +34,4 @@ public class Application {
 	
 	} //end main method
 
-} //end class
+} //end Application Class

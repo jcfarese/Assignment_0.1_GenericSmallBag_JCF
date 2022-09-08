@@ -11,12 +11,14 @@ public class SmallBag<T> {
 	//instance of items in the SmallBag class
 	private T item;
 	
+	//sets item of variable T
 	public void setItem(T item) {
 		this.item=item;
-	} //end setter
+	} //end setItem
 	
+	//return the current value of item
 	public T getItem() {
 		return item;
-	} //end getter
+	} //end getItem
 	
-} //end class
+} //end SmallBag class
