@@ -16,7 +16,10 @@ public class SmallBag<T> {
 		this.item=item;
 	} //end setItem
 	
-	//return the current value of item
+	/**
+	 * return the current value of item
+	 * @return item
+	 */
 	public T getItem() {
 		return item;
 	} //end getItem

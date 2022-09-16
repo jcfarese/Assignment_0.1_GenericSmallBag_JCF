@@ -19,13 +19,14 @@ public class Application {
 	Item<Integer> itemInteger=new Item<Integer>();
 	itemInteger.setE(18);
 	
-	//new instance of item
+	//new instance of smallbag string and adds the string
 	SmallBag<Item> smallBagS=new SmallBag<Item>();
 	smallBagS.setItem(itemString);
 	
 	//print the instance of the string in the small bag
 	System.out.println("The string in the small bag is: " + smallBagS.getItem().getE());
 	
+	//creates an instance of smallbag int and adds an integer
 	SmallBag<Item> smallBagI=new SmallBag<Item>();
 	smallBagI.setItem(itemInteger);
 	
